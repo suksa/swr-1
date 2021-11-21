@@ -1,0 +1,15 @@
+{
+    "extends": ["plugin:prettier/recommended"],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "babelOptions": {
+            "presets": ["@babel/preset-typescript", "@babel/preset-react"]
+        },
+        "requireConfigFile": false
+    },
+    "rules": {
+        "prettier/prettier": ["error", {
+            "endOfLine": "auto"
+        }]
+    }
+}
